@@ -1,0 +1,104 @@
+[gd_scene format=3 uid="uid://ddsjancysrl3x"]
+
+[ext_resource type="Texture2D" uid="uid://dj87skib3hcmd" path="res://assets/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Bee/Bee.png" id="1_o7wem"]
+[ext_resource type="Script" uid="uid://dm0c30mccavut" path="res://Scripts/Bee.gd" id="1_ug8hw"]
+[ext_resource type="AudioStream" uid="uid://3c3ylrru6j5k" path="res://MusicAndSounds/MusicaYSonidos/Sonidos/BeeFlying.mp3" id="3_rtnth"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ug8hw"]
+atlas = ExtResource("1_o7wem")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rtnth"]
+atlas = ExtResource("1_o7wem")
+region = Rect2(24, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y26aa"]
+atlas = ExtResource("1_o7wem")
+region = Rect2(48, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y5fbj"]
+atlas = ExtResource("1_o7wem")
+region = Rect2(72, 0, 24, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p7668"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ug8hw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rtnth")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y26aa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y5fbj")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 20.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bxir8"]
+size = Vector2(10, 2)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bjtr2"]
+size = Vector2(10, 6.5)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_rtnth"]
+radius = 6.53
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rtnth"]
+size = Vector2(3, 10)
+
+[node name="Bee" type="Node2D" unique_id=1261283227]
+script = ExtResource("1_ug8hw")
+
+[node name="Timer" type="Timer" parent="." unique_id=710896022]
+
+[node name="Label" type="Label" parent="." unique_id=1561742567]
+offset_top = 8.0
+offset_right = 40.0
+offset_bottom = 31.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=208454779]
+sprite_frames = SubResource("SpriteFrames_p7668")
+animation = &"Idle"
+autoplay = "Idle"
+frame_progress = 0.45907155
+
+[node name="Area2D" type="Area2D" parent="." unique_id=2013450569]
+
+[node name="TopBee" type="CollisionShape2D" parent="Area2D" unique_id=1993456861]
+position = Vector2(0, -4)
+shape = SubResource("RectangleShape2D_bxir8")
+
+[node name="Area2D2" type="Area2D" parent="." unique_id=1873356178]
+
+[node name="BottomBee" type="CollisionShape2D" parent="Area2D2" unique_id=678946096]
+position = Vector2(0, 1.75)
+shape = SubResource("RectangleShape2D_bjtr2")
+
+[node name="BeeFlying" type="AudioStreamPlayer2D" parent="." unique_id=688361074]
+position = Vector2(-3, 0)
+stream = ExtResource("3_rtnth")
+volume_db = -15.0
+autoplay = true
+max_distance = 150.0
+parameters/looping = true
+
+[node name="AreaDeteccion" type="Area2D" parent="." unique_id=69548376]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AreaDeteccion" unique_id=812608023]
+shape = SubResource("CircleShape2D_rtnth")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2064780390]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=54351002]
+shape = SubResource("RectangleShape2D_rtnth")
+
+[node name="AudioPlayer" type="AudioStreamPlayer2D" parent="." unique_id=1440832663]
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Area2D2" to="." method="_on_area_2d_2_body_entered"]

@@ -1,0 +1,128 @@
+[gd_scene format=3 uid="uid://cdmcoohmaqpnl"]
+
+[ext_resource type="Script" uid="uid://brfaoi5jrr6fw" path="res://Scenes/cofre.gd" id="1_p8vpl"]
+[ext_resource type="Texture2D" uid="uid://pleo77d1oawc" path="res://assets/UI/Cofre.png" id="2_p8vpl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kohbj"]
+atlas = ExtResource("2_p8vpl")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q21cv"]
+atlas = ExtResource("2_p8vpl")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nkqnt"]
+atlas = ExtResource("2_p8vpl")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e0273"]
+atlas = ExtResource("2_p8vpl")
+region = Rect2(96, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_27no8"]
+atlas = ExtResource("2_p8vpl")
+region = Rect2(128, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xanih"]
+atlas = ExtResource("2_p8vpl")
+region = Rect2(160, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pf4jf"]
+atlas = ExtResource("2_p8vpl")
+region = Rect2(96, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5sknn"]
+atlas = ExtResource("2_p8vpl")
+region = Rect2(128, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yd0fm"]
+atlas = ExtResource("2_p8vpl")
+region = Rect2(160, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7wa6e"]
+atlas = ExtResource("2_p8vpl")
+region = Rect2(96, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_et82j"]
+atlas = ExtResource("2_p8vpl")
+region = Rect2(128, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g6s58"]
+atlas = ExtResource("2_p8vpl")
+region = Rect2(160, 96, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cmbcu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kohbj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q21cv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q21cv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nkqnt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nkqnt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e0273")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e0273")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_27no8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xanih")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pf4jf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pf4jf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5sknn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yd0fm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7wa6e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_et82j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g6s58")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g6s58")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g6s58")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p8vpl"]
+
+[node name="Cofre" type="Area2D" unique_id=1631783316]
+script = ExtResource("1_p8vpl")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1899583072]
+position = Vector2(-4.5, -5)
+scale = Vector2(0.64, 0.613)
+sprite_frames = SubResource("SpriteFrames_cmbcu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1866384248]
+position = Vector2(-4, -4)
+shape = SubResource("RectangleShape2D_p8vpl")
