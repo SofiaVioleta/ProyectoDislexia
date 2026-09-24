@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dj87skib3hcmd" path="res://assets/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Bee/Bee.png" id="1_o7wem"]
 [ext_resource type="Script" uid="uid://dm0c30mccavut" path="res://Scripts/Bee.gd" id="1_ug8hw"]
-[ext_resource type="AudioStream" uid="uid://3c3ylrru6j5k" path="res://MusicAndSounds/MusicaYSonidos/Sonidos/BeeFlying.mp3" id="3_rtnth"]
+[ext_resource type="AudioStream" uid="uid://3c3ylrru6j5k" path="res://assets/audio/sonidos/BeeFlying.mp3" id="3_rtnth"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ug8hw"]
 atlas = ExtResource("1_o7wem")

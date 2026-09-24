@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://d4juhlwriprea"
-path="res://.godot/imported/POL-star-way-short.wav-cceca0082dd1ca6dcd96083d570695b0.sample"
+path="res://.godot/imported/POL-star-way-short.wav-90d18e18ac36130e94749cb084f3eee6.sample"
 
 [deps]
 
-source_file="res://MusicAndSounds/MusicaYSonidos/Musica/POL-star-way-short.wav"
-dest_files=["res://.godot/imported/POL-star-way-short.wav-cceca0082dd1ca6dcd96083d570695b0.sample"]
+source_file="res://assets/audio/musica/POL-star-way-short.wav"
+dest_files=["res://.godot/imported/POL-star-way-short.wav-90d18e18ac36130e94749cb084f3eee6.sample"]
 
 [params]
 
