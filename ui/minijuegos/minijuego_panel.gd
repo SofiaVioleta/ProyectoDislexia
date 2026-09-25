@@ -29,6 +29,14 @@ func _ready():
 		estilo_panel.content_margin_bottom = 10
 	contenedor.add_theme_constant_override("separation", 6)
 
+	# RF5: botón para volver a escuchar la instrucción
+	var boton_repetir := Button.new()
+	boton_repetir.text = "🔊"
+	boton_repetir.tooltip_text = "Repetir instrucción"
+	boton_repetir.pressed.connect(_leer_instruccion)
+	$PanelContainer/VBoxContainer.add_child(boton_repetir)
+	$PanelContainer/VBoxContainer.move_child(boton_repetir, 1)
+
 
 func abrir():
 	if logica.iniciar():
@@ -39,6 +47,11 @@ func abrir():
 func _mostrar_palabra():
 	label_pregunta.text = "Forma la palabra: " + logica.palabra_objetivo()
 	_crear_botones()
+	_leer_instruccion()
+
+
+func _leer_instruccion():
+	Narrador.hablar("Forma la palabra " + logica.palabra_objetivo())
 
 
 func _crear_botones():
@@ -75,29 +88,35 @@ func _on_silaba_presionada(silaba):
 	match logica.elegir_silaba(silaba):
 		LogicaSilabas.Resultado.PALABRA_COMPLETA:
 			label_pregunta.text = "¡Muy bien!"
-			await get_tree().create_timer(1.0).timeout
+			Narrador.hablar("¡Muy bien! " + logica.palabra_objetivo(), false)
+			await get_tree().create_timer(1.5).timeout
 			if logica.siguiente_palabra():
 				_mostrar_palabra()
 			else:
 				_finalizar_minijuego()
 		LogicaSilabas.Resultado.ERROR:
 			label_pregunta.text = "¡Casi! Inténtalo de nuevo"
-			await get_tree().create_timer(0.8).timeout
+			Narrador.hablar("Casi. Inténtalo de nuevo", false)
+			await get_tree().create_timer(1.2).timeout
 			label_pregunta.text = "Forma la palabra: " + logica.palabra_objetivo()
 
 
 func _finalizar_minijuego():
 	label_pregunta.text = "¡LO LOGRASTE!"
+	Narrador.hablar("¡Lo lograste!")
 	await get_tree().create_timer(2.0).timeout
 	visible = false
 
 
+# Usa la grabación de la sílaba si existe; si no, la voz automática
 func _reproducir_sonido(silaba):
+	var ruta = RUTA_SONIDOS + silaba.to_lower() + ".ogg"
+	if not ResourceLoader.exists(ruta):
+		Narrador.hablar(silaba)
+		return
 	var audio = AudioStreamPlayer.new()
 	add_child(audio)
-	var ruta = RUTA_SONIDOS + silaba.to_lower() + ".ogg"
-	if ResourceLoader.exists(ruta):
-		audio.stream = load(ruta)
-		audio.play()
-		await audio.finished
+	audio.stream = load(ruta)
+	audio.play()
+	await audio.finished
 	audio.queue_free()

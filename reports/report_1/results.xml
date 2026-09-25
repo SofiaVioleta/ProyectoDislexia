@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites id="2026-09-24" name="report_1" tests="5" failures="0" skipped="0" flaky="0" time="0.000">
+	<testsuite id="0" name="test_logica_silabas" package="tests" timestamp="2026-09-25T02:05:07" hostname="localhost" tests="5" failures="0" errors="0" skipped="0" flaky="0" time="0.050">
+		<testcase name="test_silaba_correcta_en_orden_es_parcial" classname="test_logica_silabas" time="0.006">
+		</testcase>
+		<testcase name="test_todas_las_silabas_correctas_completan_la_palabra" classname="test_logica_silabas" time="0.008">
+		</testcase>
+		<testcase name="test_silaba_incorrecta_es_error" classname="test_logica_silabas" time="0.005">
+		</testcase>
+		<testcase name="test_error_no_resta_y_permite_reintentar" classname="test_logica_silabas" time="0.005">
+		</testcase>
+		<testcase name="test_minijuego_termina_al_completar_el_total" classname="test_logica_silabas" time="0.008">
+		</testcase>
+	</testsuite>
+</testsuites>
