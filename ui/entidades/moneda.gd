@@ -8,7 +8,7 @@ func _on_body_entered(body): # Detecta contacto
 	if body.is_in_group("Player"): # Si es jugador
 		body.add_Coin() # Suma moneda
 		animated_sprite.visible=false # Oculta sprite
-		collision.disabled=true # Desactiva colisión
+		collision.set_deferred("disabled", true) # Desactiva colisión al final del frame
 		pickup_sound.play() # Reproduce sonido
 		pickup_sound.finished.connect(_on_sound_finished) # Espera fin sonido
 			
