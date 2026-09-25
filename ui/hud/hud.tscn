@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bsg0lw03854vm"]
 
 [ext_resource type="Script" uid="uid://csxjsn4t546ls" path="res://ui/hud/hud.gd" id="1_nxvpl"]
-[ext_resource type="Texture2D" uid="uid://drc10wlx5467q" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/objects_/coin_.png" id="1_w371h"]
+[ext_resource type="Texture2D" uid="uid://drc10wlx5467q" path="res://assets/sprites/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/objects_/coin_.png" id="1_w371h"]
 
 [node name="CanvasLayer" type="CanvasLayer" unique_id=601331509]
 script = ExtResource("1_nxvpl")

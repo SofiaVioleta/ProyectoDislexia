@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://b18unrnspvmni"]
 
 [ext_resource type="Script" uid="uid://6xsu30d3jrls" path="res://ui/entidades/llave.gd" id="1_okl7c"]
-[ext_resource type="Texture2D" uid="uid://bb12f3bhyqljd" path="res://assets/UI/key.png" id="1_q4r7r"]
+[ext_resource type="Texture2D" uid="uid://bb12f3bhyqljd" path="res://assets/sprites/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/objects_/key.png" id="1_q4r7r"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_okl7c"]
 atlas = ExtResource("1_q4r7r")

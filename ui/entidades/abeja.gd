@@ -3,7 +3,7 @@ extends Node2D
 @export var mensaje: String = ""
 @export var audio_palabra: AudioStream = null
 
-var fuente = preload("res://assets/fonts/Lexend-Regular.ttf")
+var fuente = preload("res://assets/fuentes/Lexend-Regular.ttf")
 
 func _ready():
 	$Label.visible = false

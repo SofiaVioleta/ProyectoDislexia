@@ -8,7 +8,7 @@ const RUTA_SONIDOS := "res://assets/audio/sonidos/"
 @onready var label_pregunta = $PanelContainer/VBoxContainer/LabelPregunta
 @onready var contenedor = $PanelContainer/VBoxContainer/ContenedorSilabas
 
-var fuente = preload("res://assets/fonts/Lexend-Regular.ttf")
+var fuente = preload("res://assets/fuentes/Lexend-Regular.ttf")
 var logica: LogicaSilabas
 
 
