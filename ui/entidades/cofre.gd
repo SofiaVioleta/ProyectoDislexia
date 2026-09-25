@@ -1,6 +1,6 @@
 extends Area2D
 
-var panel_escena = preload("res://Scenes/minijuego_panel.tscn")
+var panel_escena = preload("res://ui/minijuegos/minijuego_panel.tscn")
 var panel = null
 var minijuego_completado = false # Nueva variable para controlar el estado
 

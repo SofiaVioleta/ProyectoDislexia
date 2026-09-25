@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cdmcoohmaqpnl"]
 
-[ext_resource type="Script" uid="uid://brfaoi5jrr6fw" path="res://Scenes/cofre.gd" id="1_p8vpl"]
+[ext_resource type="Script" uid="uid://brfaoi5jrr6fw" path="res://ui/entidades/cofre.gd" id="1_p8vpl"]
 [ext_resource type="Texture2D" uid="uid://pleo77d1oawc" path="res://assets/UI/Cofre.png" id="2_p8vpl"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kohbj"]

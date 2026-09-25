@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cxrwmgs82d7js"]
 
-[ext_resource type="Script" uid="uid://c1tt6otvnycho" path="res://Scenes/minijuego_panel.gd" id="1_68lcd"]
+[ext_resource type="Script" uid="uid://c1tt6otvnycho" path="res://ui/minijuegos/minijuego_panel.gd" id="1_68lcd"]
 
 [node name="minijuego_panel" type="Control" unique_id=1785235797]
 custom_minimum_size = Vector2(100, 100)

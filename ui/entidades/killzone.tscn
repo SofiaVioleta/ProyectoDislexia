@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cifvdkgi1n36w"]
 
-[ext_resource type="Script" uid="uid://cvu10u5ajm1vi" path="res://Killzone.gd" id="1_jvagm"]
+[ext_resource type="Script" uid="uid://cvu10u5ajm1vi" path="res://ui/entidades/Killzone.gd" id="1_jvagm"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rli2t"]
 size = Vector2(18.5, 8)
