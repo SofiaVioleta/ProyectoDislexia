@@ -1,28 +1,28 @@
 [gd_scene format=4 uid="uid://e8231b8b2reg"]
 
-[ext_resource type="Texture2D" uid="uid://bqnsucpv5e844" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/midground_/spring_.png" id="1_s486e"]
-[ext_resource type="PackedScene" uid="uid://r0iwlq54svq2" path="res://ui/entidades/Player.tscn" id="2_7yn8b"]
-[ext_resource type="Texture2D" uid="uid://bmqbvl1i7hrta" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/midground_/autumn_.png" id="2_jdjsr"]
-[ext_resource type="PackedScene" uid="uid://pghpjuohgonf" path="res://ui/entidades/Coin.tscn" id="3_etk83"]
-[ext_resource type="Texture2D" uid="uid://cvh4yw5nm0u05" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/objects_/staticObjects_.png" id="3_ws1hi"]
-[ext_resource type="PackedScene" uid="uid://bsg0lw03854vm" path="res://ui/hud/UI.tscn" id="4_qumfl"]
-[ext_resource type="Texture2D" uid="uid://cwbbvor6s3fpl" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/objects_/beehives_.png" id="4_xicox"]
-[ext_resource type="PackedScene" uid="uid://cifvdkgi1n36w" path="res://ui/entidades/killzone.tscn" id="5_r08cw"]
-[ext_resource type="PackedScene" uid="uid://ddsjancysrl3x" path="res://ui/entidades/Bee.tscn" id="6_00287"]
-[ext_resource type="AudioStream" uid="uid://ccbo72xkju7i1" path="res://assets/audio/sonidos/abeja5.mp3" id="10_ejakq"]
-[ext_resource type="AudioStream" uid="uid://by1t23puau2g1" path="res://assets/audio/musica/POL-king-of-coins-short.wav" id="10_xicox"]
-[ext_resource type="PackedScene" uid="uid://cdmcoohmaqpnl" path="res://ui/entidades/Cofre.tscn" id="11_bjq7f"]
-[ext_resource type="AudioStream" uid="uid://dmbr6yeln7fro" path="res://assets/audio/sonidos/abeja4.mp3" id="11_dms03"]
-[ext_resource type="PackedScene" uid="uid://b18unrnspvmni" path="res://ui/entidades/llave.tscn" id="12_b7adt"]
-[ext_resource type="AudioStream" uid="uid://bng505cusbejw" path="res://assets/audio/sonidos/abeja3.mp3" id="13_6kno7"]
-[ext_resource type="Texture2D" uid="uid://5id07wyeagio" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/background_/Clouds/Clouds 7/1.png" id="13_jdjsr"]
-[ext_resource type="Texture2D" uid="uid://bbbl4luuf8xkd" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/background_/Clouds/Clouds 7/2.png" id="14_6hulr"]
-[ext_resource type="Texture2D" uid="uid://chwakj1jxufqm" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/background_/Clouds/Clouds 7/3.png" id="15_ejakq"]
-[ext_resource type="Texture2D" uid="uid://b0mf6tnql57mw" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/background_/Clouds/Clouds 7/4.png" id="16_dms03"]
-[ext_resource type="AudioStream" uid="uid://cr5nc7tu8w84x" path="res://assets/audio/sonidos/abeja2.mp3" id="18_dms03"]
+[ext_resource type="PackedScene" uid="uid://cifvdkgi1n36w" path="res://ui/entidades/zona_peligro.tscn" id="1_resol"]
+[ext_resource type="Texture2D" uid="uid://bqnsucpv5e844" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/midground_/spring_.png" id="2_46i05"]
+[ext_resource type="Texture2D" uid="uid://bmqbvl1i7hrta" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/midground_/autumn_.png" id="3_kt1y8"]
+[ext_resource type="Texture2D" uid="uid://cvh4yw5nm0u05" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/objects_/staticObjects_.png" id="4_50sjl"]
+[ext_resource type="Texture2D" uid="uid://cwbbvor6s3fpl" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/objects_/beehives_.png" id="5_t6nge"]
+[ext_resource type="PackedScene" uid="uid://r0iwlq54svq2" path="res://ui/entidades/jugador.tscn" id="6_po6ee"]
+[ext_resource type="PackedScene" uid="uid://pghpjuohgonf" path="res://ui/entidades/moneda.tscn" id="7_gpido"]
+[ext_resource type="PackedScene" uid="uid://bsg0lw03854vm" path="res://ui/hud/hud.tscn" id="8_g0exd"]
+[ext_resource type="PackedScene" uid="uid://ddsjancysrl3x" path="res://ui/entidades/abeja.tscn" id="9_lsqty"]
+[ext_resource type="AudioStream" uid="uid://ccbo72xkju7i1" path="res://assets/audio/sonidos/abeja5.mp3" id="10_v1guu"]
+[ext_resource type="AudioStream" uid="uid://dmbr6yeln7fro" path="res://assets/audio/sonidos/abeja4.mp3" id="11_4luvh"]
+[ext_resource type="AudioStream" uid="uid://cr5nc7tu8w84x" path="res://assets/audio/sonidos/abeja2.mp3" id="12_3e1ja"]
+[ext_resource type="AudioStream" uid="uid://bng505cusbejw" path="res://assets/audio/sonidos/abeja3.mp3" id="13_vtrgj"]
+[ext_resource type="AudioStream" uid="uid://by1t23puau2g1" path="res://assets/audio/musica/POL-king-of-coins-short.wav" id="14_cf0xa"]
+[ext_resource type="PackedScene" uid="uid://cdmcoohmaqpnl" path="res://ui/entidades/cofre.tscn" id="15_e32ge"]
+[ext_resource type="PackedScene" uid="uid://b18unrnspvmni" path="res://ui/entidades/llave.tscn" id="16_lsoic"]
+[ext_resource type="Texture2D" uid="uid://5id07wyeagio" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/background_/Clouds/Clouds 7/1.png" id="17_pp6iy"]
+[ext_resource type="Texture2D" uid="uid://bbbl4luuf8xkd" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/background_/Clouds/Clouds 7/2.png" id="18_prbfh"]
+[ext_resource type="Texture2D" uid="uid://chwakj1jxufqm" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/background_/Clouds/Clouds 7/3.png" id="19_danbn"]
+[ext_resource type="Texture2D" uid="uid://b0mf6tnql57mw" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/background_/Clouds/Clouds 7/4.png" id="20_36vuf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7yn8b"]
-texture = ExtResource("1_s486e")
+texture = ExtResource("2_46i05")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -319,7 +319,7 @@ texture = ExtResource("1_s486e")
 5:19/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6hulr"]
-texture = ExtResource("2_jdjsr")
+texture = ExtResource("3_kt1y8")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -717,7 +717,7 @@ sources/0 = SubResource("TileSetAtlasSource_7yn8b")
 sources/1 = SubResource("TileSetAtlasSource_6hulr")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bjq7f"]
-texture = ExtResource("3_ws1hi")
+texture = ExtResource("4_50sjl")
 3:0/0 = 0
 4:0/0 = 0
 5:0/0 = 0
@@ -862,7 +862,7 @@ texture = ExtResource("3_ws1hi")
 16:8/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b7adt"]
-texture = ExtResource("4_xicox")
+texture = ExtResource("5_t6nge")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -893,10 +893,10 @@ sources/1 = SubResource("TileSetAtlasSource_b7adt")
 
 [node name="Map" type="Node2D" unique_id=943079984]
 
-[node name="Killzone3" parent="." unique_id=1721293974 instance=ExtResource("5_r08cw")]
+[node name="Killzone3" parent="." unique_id=1721293974 instance=ExtResource("1_resol")]
 position = Vector2(375, 38)
 
-[node name="Killzone2" parent="." unique_id=299027711 instance=ExtResource("5_r08cw")]
+[node name="Killzone2" parent="." unique_id=299027711 instance=ExtResource("1_resol")]
 position = Vector2(194, 38)
 
 [node name="Floor" type="TileMapLayer" parent="." unique_id=779474969]
@@ -912,70 +912,70 @@ tile_set = SubResource("TileSet_46meq")
 tile_map_data = PackedByteArray("AAASAAEAAAABAAYAAAAMAAEAAAADAAcAAAAQAAEAAAADAAcAAAAAAAAAAAAHAAMAAAAAAP//AAAHAAEAAAAEAPv/AAABAAYAAAA=")
 tile_set = SubResource("TileSet_46meq")
 
-[node name="CharacterBody2D" parent="." unique_id=1923283582 instance=ExtResource("2_7yn8b")]
+[node name="CharacterBody2D" parent="." unique_id=1923283582 instance=ExtResource("6_po6ee")]
 position = Vector2(62, 5)
 
-[node name="Coin" parent="." unique_id=489763050 instance=ExtResource("3_etk83")]
+[node name="Coin" parent="." unique_id=489763050 instance=ExtResource("7_gpido")]
 position = Vector2(161, -39)
 
-[node name="Coin2" parent="." unique_id=534533433 instance=ExtResource("3_etk83")]
+[node name="Coin2" parent="." unique_id=534533433 instance=ExtResource("7_gpido")]
 position = Vector2(226, -151)
 
-[node name="Coin3" parent="." unique_id=939487813 instance=ExtResource("3_etk83")]
+[node name="Coin3" parent="." unique_id=939487813 instance=ExtResource("7_gpido")]
 position = Vector2(336, 27)
 
-[node name="Coin5" parent="." unique_id=1056837125 instance=ExtResource("3_etk83")]
+[node name="Coin5" parent="." unique_id=1056837125 instance=ExtResource("7_gpido")]
 position = Vector2(403, 26)
 
-[node name="Coin4" parent="." unique_id=844362701 instance=ExtResource("3_etk83")]
+[node name="Coin4" parent="." unique_id=844362701 instance=ExtResource("7_gpido")]
 position = Vector2(336, -54)
 
-[node name="Coin6" parent="." unique_id=451948538 instance=ExtResource("3_etk83")]
+[node name="Coin6" parent="." unique_id=451948538 instance=ExtResource("7_gpido")]
 position = Vector2(393, -71)
 
-[node name="CanvasLayer" parent="." unique_id=601331509 instance=ExtResource("4_qumfl")]
+[node name="CanvasLayer" parent="." unique_id=601331509 instance=ExtResource("8_g0exd")]
 
-[node name="Killzone" parent="." unique_id=1375030227 instance=ExtResource("5_r08cw")]
+[node name="Killzone" parent="." unique_id=1375030227 instance=ExtResource("1_resol")]
 position = Vector2(261, 38)
 
-[node name="Bee5" parent="." unique_id=1943120461 instance=ExtResource("6_00287")]
+[node name="Bee5" parent="." unique_id=1943120461 instance=ExtResource("9_lsqty")]
 position = Vector2(349, -98)
 mensaje = "¡La palabra es: te - so - ro!"
-audio_palabra = ExtResource("10_ejakq")
+audio_palabra = ExtResource("10_v1guu")
 
 [node name="Abeja5" type="AudioStreamPlayer2D" parent="Bee5" unique_id=142014105]
 position = Vector2(1, 0)
-stream = ExtResource("10_ejakq")
+stream = ExtResource("10_v1guu")
 
-[node name="Bee4" parent="." unique_id=251699216 instance=ExtResource("6_00287")]
+[node name="Bee4" parent="." unique_id=251699216 instance=ExtResource("9_lsqty")]
 position = Vector2(71, -33)
 mensaje = "¡La palabra es: pe - lo - ta!"
-audio_palabra = ExtResource("11_dms03")
+audio_palabra = ExtResource("11_4luvh")
 
-[node name="Bee2" parent="." unique_id=1587471314 instance=ExtResource("6_00287")]
+[node name="Bee2" parent="." unique_id=1587471314 instance=ExtResource("9_lsqty")]
 position = Vector2(164, -86)
 mensaje = "¡La palabra es: pi- no!"
-audio_palabra = ExtResource("18_dms03")
+audio_palabra = ExtResource("12_3e1ja")
 
 [node name="Abeja2" type="AudioStreamPlayer2D" parent="Bee2" unique_id=1223184745]
 position = Vector2(1, 0)
-stream = ExtResource("18_dms03")
+stream = ExtResource("12_3e1ja")
 
-[node name="Bee3" parent="." unique_id=2066606279 instance=ExtResource("6_00287")]
+[node name="Bee3" parent="." unique_id=2066606279 instance=ExtResource("9_lsqty")]
 position = Vector2(297, -150)
 mensaje = "¡La palabra es: so-l ! "
-audio_palabra = ExtResource("13_6kno7")
+audio_palabra = ExtResource("13_vtrgj")
 
 [node name="PolKingOfCoinsShort" type="AudioStreamPlayer2D" parent="." unique_id=1244823871]
 position = Vector2(279, 4)
-stream = ExtResource("10_xicox")
+stream = ExtResource("14_cf0xa")
 volume_db = -12.876
 autoplay = true
 
-[node name="Cofre" parent="." unique_id=1631783316 instance=ExtResource("11_bjq7f")]
+[node name="Cofre" parent="." unique_id=1631783316 instance=ExtResource("15_e32ge")]
 position = Vector2(213, -99)
 
-[node name="Llave" parent="." unique_id=1186467570 instance=ExtResource("12_b7adt")]
+[node name="Llave" parent="." unique_id=1186467570 instance=ExtResource("16_lsoic")]
 position = Vector2(204, -151)
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=816401339]
@@ -991,7 +991,7 @@ motion_scale = Vector2(0.1, 0.1)
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/Capa_Cielo" unique_id=1288157869]
 texture_repeat = 2
 position = Vector2(171, -340)
-texture = ExtResource("13_jdjsr")
+texture = ExtResource("17_pp6iy")
 
 [node name="Capa_Nubes_Fondo" type="ParallaxLayer" parent="ParallaxBackground" unique_id=413341864]
 position = Vector2(-19, 289)
@@ -1000,7 +1000,7 @@ motion_scale = Vector2(0.2, 0.2)
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/Capa_Nubes_Fondo" unique_id=571410477]
 texture_repeat = 2
 position = Vector2(191, -367)
-texture = ExtResource("14_6hulr")
+texture = ExtResource("18_prbfh")
 
 [node name="Capa_Nubes_Frente" type="ParallaxLayer" parent="ParallaxBackground" unique_id=1875674834]
 position = Vector2(-17, 310)
@@ -1009,7 +1009,7 @@ motion_scale = Vector2(0.3, 0.3)
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/Capa_Nubes_Frente" unique_id=948549022]
 texture_repeat = 2
 position = Vector2(186, -333)
-texture = ExtResource("15_ejakq")
+texture = ExtResource("19_danbn")
 
 [node name="Capa_nubes_grandes" type="ParallaxLayer" parent="ParallaxBackground" unique_id=1202776804]
 position = Vector2(-9, 291)
@@ -1018,4 +1018,4 @@ motion_scale = Vector2(0.5, 0.5)
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/Capa_nubes_grandes" unique_id=1226943627]
 texture_repeat = 2
 position = Vector2(181, -312)
-texture = ExtResource("16_dms03")
+texture = ExtResource("20_36vuf")

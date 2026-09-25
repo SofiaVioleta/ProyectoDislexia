@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://r0iwlq54svq2"]
 
-[ext_resource type="Script" uid="uid://djleuh3jabu0u" path="res://ui/entidades/Player.gd" id="1_kyqiw"]
+[ext_resource type="Script" uid="uid://djleuh3jabu0u" path="res://ui/entidades/jugador.gd" id="1_kyqiw"]
 [ext_resource type="Texture2D" uid="uid://bjqpml284shn5" path="res://assets/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Mushroom/Mushroom_1/Mushroom_1.png" id="2_kyqiw"]
 [ext_resource type="AudioStream" uid="uid://br40pqh3utitm" path="res://assets/audio/sonidos/Jump.mp3" id="3_gntrk"]
 

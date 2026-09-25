@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://pghpjuohgonf"]
 
 [ext_resource type="Texture2D" uid="uid://drc10wlx5467q" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/objects_/coin_.png" id="1_qrc3l"]
-[ext_resource type="Script" uid="uid://djgmas4utd5ox" path="res://ui/entidades/Coin.gd" id="1_somhs"]
+[ext_resource type="Script" uid="uid://djgmas4utd5ox" path="res://ui/entidades/moneda.gd" id="1_somhs"]
 [ext_resource type="AudioStream" uid="uid://dvbvdc1ckphwt" path="res://assets/audio/sonidos/Coin.ogg" id="3_wjfxq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_somhs"]
