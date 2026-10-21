@@ -1,5 +1,6 @@
 [gd_scene format=4 uid="uid://e8231b8b2reg"]
 
+[ext_resource type="Script" uid="uid://x3tqc1cvu3yy" path="res://ui/mundos/mundo_1/mundo_1.gd" id="1_1ejc4"]
 [ext_resource type="PackedScene" uid="uid://cifvdkgi1n36w" path="res://ui/entidades/zona_peligro.tscn" id="1_resol"]
 [ext_resource type="Texture2D" uid="uid://bqnsucpv5e844" path="res://assets/sprites/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/midground_/spring_.png" id="2_46i05"]
 [ext_resource type="Texture2D" uid="uid://bmqbvl1i7hrta" path="res://assets/sprites/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/midground_/autumn_.png" id="3_kt1y8"]
@@ -14,7 +15,7 @@
 [ext_resource type="AudioStream" uid="uid://cr5nc7tu8w84x" path="res://assets/audio/sonidos/abeja2.mp3" id="12_3e1ja"]
 [ext_resource type="AudioStream" uid="uid://bng505cusbejw" path="res://assets/audio/sonidos/abeja3.mp3" id="13_vtrgj"]
 [ext_resource type="AudioStream" uid="uid://by1t23puau2g1" path="res://assets/audio/musica/POL-king-of-coins-short.wav" id="14_cf0xa"]
-[ext_resource type="PackedScene" uid="uid://cdmcoohmaqpnl" path="res://ui/entidades/cofre.tscn" id="15_e32ge"]
+[ext_resource type="PackedScene" uid="uid://cdmcoohmaqpnl" path="res://ui/entidades/Cofre.tscn" id="15_e32ge"]
 [ext_resource type="PackedScene" uid="uid://b18unrnspvmni" path="res://ui/entidades/llave.tscn" id="16_lsoic"]
 [ext_resource type="Texture2D" uid="uid://5id07wyeagio" path="res://assets/sprites/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/background_/Clouds/Clouds 7/1.png" id="17_pp6iy"]
 [ext_resource type="Texture2D" uid="uid://bbbl4luuf8xkd" path="res://assets/sprites/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/background_/Clouds/Clouds 7/2.png" id="18_prbfh"]
@@ -892,6 +893,7 @@ sources/0 = SubResource("TileSetAtlasSource_bjq7f")
 sources/1 = SubResource("TileSetAtlasSource_b7adt")
 
 [node name="Map" type="Node2D" unique_id=943079984]
+script = ExtResource("1_1ejc4")
 
 [node name="Killzone3" parent="." unique_id=1721293974 instance=ExtResource("1_resol")]
 position = Vector2(375, 38)
